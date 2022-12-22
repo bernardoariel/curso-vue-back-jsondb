@@ -1,0 +1,59 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "admin@test.com",
+      "pass": "admin",
+      "rol": "admin",
+      "usuario": "admin"
+    },
+    {
+      "usuario": "bernardock",
+      "email": "arielo@hotmail.com",
+      "pass": "123456",
+      "rol": "cliente",
+      "id": 2
+    },
+    {
+      "usuario": "juanjo",
+      "email": "juanjo@com.com",
+      "pass": "123456",
+      "rol": "cliente",
+      "id": 3
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "titulo": "Curso de PHP",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD08cngxMuOdTG6pTfXn9tzksHMGLauQoYowu9ZxU-Qg&s",
+      "lenguaje": "PHP",
+      "detalle": "Curso para Principiantes de php",
+      "precio": " $ 15000.-"
+    },
+    {
+      "id": 2,
+      "titulo": "Curso de Angular 15",
+      "imagen": "https://d2ms8rpfqc4h24.cloudfront.net/whats_new_in_angular15_9af012d463.jpg",
+      "lenguaje": "ANGULAR",
+      "detalle": "Curso de angular de cero a experto",
+      "precio": " $ 18000.- "
+    },
+    {
+      "id": 3,
+      "titulo": "Curso de VUE",
+      "imagen": "data:image/jpeg;base64,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",
+      "lenguaje": "vue",
+      "detalle": "Curso para Principiantes de vue y Pinia",
+      "precio": " $ 16000.- "
+    },
+    {
+      "id": 4,
+      "titulo": "Curso de LARAVEL",
+      "imagen": "https://virtumedia.files.wordpress.com/2019/06/laravel.jpg",
+      "lenguaje": "LARAVEL",
+      "detalle": "Curso para Principiantes de Laravel",
+      "precio": " $ 25000.- "
+    }
+  ]
+}
